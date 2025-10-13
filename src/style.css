@@ -1,0 +1,47 @@
+html {
+  background-color: #0c071a;
+  margin: 80px 0 0 0;
+  scroll-behavior: smooth; /* Suaviza a rolagem da página */
+}
+
+/* Cabeçalho */
+.cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: rgb(17, 12, 34);
+  text-shadow: 2px 2px 0 #000, 2px 2px 7px rgba(0, 0, 0);
+  z-index: 1000;
+}
+
+/* Logo */
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Menu */
+.menu ul {
+  display: flex;
+  gap: 30px;
+}
+
+.logo a, .menu a {
+  transition: color 0.3s ease;
+}
+
+.menu a:hover, .logo a:hover {
+  color: #00ddff;
+}
+
+/* Testando o cabeçalho */
+p {
+  display: inline-block;
+  width: 100px;
+}
